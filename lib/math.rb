@@ -19,7 +19,8 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  result = num1.modulo num2
+  result = num1.remainder num2
+  #num1 % num2
   result
 end
 
